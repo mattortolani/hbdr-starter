@@ -1,0 +1,19 @@
+{
+  "mcpServers": {
+    "playwright": {
+      "command": "npx",
+      "args": ["@playwright/mcp"],
+      "description": "Microsoft Playwright MCP server for browser automation"
+    },
+    "playwright-extended": {
+      "command": "npx", 
+      "args": ["@executeautomation/playwright-mcp-server"],
+      "description": "Extended Playwright MCP server with additional features"
+    }
+  },
+  "usage": {
+    "start_playwright": "npm run playwright",
+    "start_playwright_extended": "npm run playwright-extended",
+    "test_with_claude": "Use Claude Code with MCP servers for browser automation"
+  }
+}

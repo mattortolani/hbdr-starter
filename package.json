@@ -1,0 +1,23 @@
+{
+  "name": "hbdr-starter",
+  "version": "1.0.0",
+  "description": "HBDR starter project with Claude Code, MCP servers, and deployment tools",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npm run start",
+    "start": "node index.js",
+    "build": "echo 'Build complete'",
+    "test": "echo 'No tests specified'",
+    "playwright": "npx @playwright/mcp",
+    "playwright-extended": "npx @executeautomation/playwright-mcp-server",
+    "deploy:vercel": "vercel --prod",
+    "deploy:netlify": "netlify deploy --prod"
+  },
+  "keywords": ["hbdr", "starter", "mcp", "playwright", "cloudflare"],
+  "author": "Matt Ortolani",
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/mcp": "latest",
+    "@executeautomation/playwright-mcp-server": "latest"
+  }
+}
